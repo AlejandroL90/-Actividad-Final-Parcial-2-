@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Schema,model } from "mongoose";
 
 const Esqueleto_alumno = new Schema({
@@ -47,17 +46,3 @@ const Esqueleto_alumno = new Schema({
 })
 
 export const Tabla = new model("Tabla de alumno",Esqueleto_alumno)
-=======
-import { Schema } from "mongoose" 
-
-const Esqueleto_alumnos = new Schema{(
-    alumno : String,
-    materia : String,
-    calificacion : Number,
-    asistencia : Number,
-    promedia : Number,
-    grado : Number
-)}
-
-export const Tabla = new model("Tabla de alumnos",Esqueleto_alumnos)
->>>>>>> 4c9ec53b08d514b1ee1332e873635ae033a53c82
