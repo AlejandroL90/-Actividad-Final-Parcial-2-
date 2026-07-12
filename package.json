@@ -1,0 +1,34 @@
+{
+<<<<<<< HEAD
+  "name": "peliculas",
+=======
+  "name": "programa-de-prediccion",
+>>>>>>> 4c9ec53b08d514b1ee1332e873635ae033a53c82
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+<<<<<<< HEAD
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+=======
+  "main": "app", 
+  "scripts": {
+    "start": "node app", 
+>>>>>>> 4c9ec53b08d514b1ee1332e873635ae033a53c82
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+<<<<<<< HEAD
+    "mongoose": "^9.6.3"
+=======
+    "mongoose": "^9.7.0"
+>>>>>>> 4c9ec53b08d514b1ee1332e873635ae033a53c82
+  },
+  "devDependencies": {}
+}
